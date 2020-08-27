@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>會員中心</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <link rel="stylesheet" href="scss/all.css">
+</head>
+<body>
+<!---------------------------------------表頭start-------------------------------------------->
+    <div class="container">
+
+   <div class="row header ">
+
+    <div class=" col-6 col-md-4">
+      
+      <a href="index.html"class="logo">index</a>
+      
+    </div>
+
+    <nav class="nav col-4  col-md-8 d-none  d-md-flex justify-content-end ">
+      <div>
+        
+      </div>
+      <img src="img/tshirt.svg" alt="">
+      <a class="nav-link active text-success" href="product.html">Product</a>
+
+      <img src="img/user-alt.svg" alt="">
+      <a class="nav-link text-success" href="login.html">log in</a>
+
+      <span class="material-icons nav-favorite text-success ">
+        favorite
+        </span>
+      <a class="nav-link text-success" href="#">Wishlist</a>
+
+      <img src="img/shopping-cart.svg" alt="">
+      <a class="nav-link text-success" href="#" >Cart(3)</a>
+
+     
+      
+    </nav>
+ 
+    <div class="collapse col-6 d-flex  d-md-none  justify-content-end  pt-1">
+      <img src="img/shopping-cart.svg" alt="">
+      <p class="bg-primary text-light text-center ">3</p>
+      <button class=" toggler  border-0 align-items-center bg-light"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/dehaze-24px.png?raw=true" alt=""></button>
+    </div>
+    </div>
+   
+
+  </div>
+  <div class="container-fluid">
+   
+
+      <ul class="navbar-nav  flex-column  d-none bg-success text-center text-light">
+        <li class="nav-item border-bottom ">
+          <a class="nav-link text-light" href="product.html">Product</a>
+        </li>
+    
+        <li class="nav-item border-bottom">
+          <a class="nav-link text-light" href="#">Wishlist</a>
+        </li>
+        <li class="nav-item border-bottom">
+          <a class="nav-link text-light" href="#">Blog</a>
+        </li>
+        <li class="nav-item border-bottom">
+          <a class="nav-link  text-light" href="#" >Contact</a>
+        </li>
+        <li class="nav-item border-bottom">
+          <a class="nav-link text-light" href="login.html" >login</a>
+        </li>
+      </ul>
+      
+      
+    </div>
+
+    
+
+  </div>
+
+   
+<div class="container-fluid bg-primary mb-4">
+  <div class="container">
+    <div class="row">
+      <nav class="nav  col-md6-12 d-none d-md-flex">
+
+     
+        <a class="nav-link text-light" href="#">CHANEL</a>
+        <a class="nav-link text-light" href="#" >Jo Malone</a>
+        <a class="nav-link text-light" href="#">Curology</a>
+        <a class="nav-link text-light" href="#">Dior</a>
+        <a class="nav-link text-light" href="#" >Chloe</a>
+        <a class="nav-link text-light" href="#" >ZARA</a>
+  
+      </nav>
+    </div>
+ 
+  </div>
+
+ </div>
+<!---------------------------------------表頭end---------------------------------------------->
+
+
+<!---------------------------------------會變動的內容start------------------------------------>
+
+<div class="user container">
+  <div class="row mb-5">
+
+    <div class="col-12   col-lg-2 order-md-first ">
+      
+   
+      
+        <h4 class="card-text text-success pb-3 font-weight-bold d-none d-md-flex">會員中心</h4>
+      <ul class="list-unstyled d-flex flex-lg-column justify-content-between">
+        <li class="mb-4 nav-item"> <a href="#" class="user-item card-text text-success ">會員資料修改</a></li>
+        <li class="mb-4 nav-item">  <a href="#" class="user-item card-text text-success ">訂單查詢</a></li>
+        <li class="mb-4 nav-item">  <a href="#"class="user-item card-text text-success ">退／換貨申請</a></li>
+      </ul>
+         
+         
+
+       
+   
+    
+    </div>
+
+    
+    <div class="col-md-12  col-lg-6 order-last">
+      
+      
+        <p class="font-weight-bold infor pb-2">個人資料修改</p>
+     
+    
+      <form class="text-success" >
+   
+        <div class="form-group row ">
+          <label for="acount" class="col-4 col-md-2 col-form-label ">會員帳號</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control border-0 p-0" id="acount" placeholder="email@example.com">
+          </div>
+        </div>
+
+        <div class="form-group row ">
+          <label for="name" class="col-4 col-md-2 col-form-label">會員姓名</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control  form-bor" id="name" placeholder="">
+          </div>
+          
+        </div>
+            
+       <div class="form-group row ">
+          <label for="sex" class="col-4 col-md-2 col-form-label">會員性別</label>
+          <div class="col-3 col-md-2">
+             <select class="form-control form-bor" id="sex">
+            <option>男</option>
+            <option>女</option>
+            </select>
+       
+          </div>
+        </div>
+
+        <div class="form-group row ">
+          <label for="email" class="col-4 col-md-2 col-form-label">電子信箱</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control  form-bor" id="email" placeholder="email@example.com">
+          </div>
+          
+        </div>
+     
+        <div class="form-group row ">
+          <label for="phone" class="col-4 col-md-2 col-form-label">手機號碼</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control  form-bor" id="phone" placeholder="">
+          </div>
+          
+        </div>
+
+        <div class="form-group row ">
+          <label for="address" class="col-4 col-md-2 col-form-label">聯絡地址</label>
+          <div class="col-8 col-md-4">
+             <select class="form-control form-bor" id="">
+            <option>台灣及離島</option>
+            </select>
+       
+          </div>
+        </div>
+        <div class="form-group row ">
+          <label for="city" class="col-4 col-md-2 col-form-label"></label>
+          
+          <div class="col-4 col-md-4">
+             <select class="form-control form-bor" id="city">
+            <option>高雄市</option>
+            </select>
+       
+          </div>
+           <div class="col-4 col-md-4">
+             <select class="form-control form-bor" id="area">
+            <option>鹽埕區</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="form-group row ">
+          <label for="address" class="col-4 col-md-2 col-form-label"></label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control form-bor" id="address" placeholder="請輸入地址">
+          </div>
+
+          
+        </div>
+
+        <div class="form-group row ">
+          <label for="address" class="col-4 col-md-2 mr-3 col-form-label"></label>
+
+         <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input my-error" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">我願意收到最新優惠情報</label>
+</div>
+
+          
+        </div>
+
+        <div class="form-group row ">
+          <label for="address1" class="col-4 col-md-2 col-form-label">配送地址</label>
+          <div class="col-8 col-md-4">
+             <select class="form-control form-bor" id="">
+            <option>台灣及離島</option>
+            </select>
+       
+          </div>
+        </div>
+        <div class="form-group row ">
+          <label for="city" class="col-4 col-md-2 col-form-label"></label>
+          
+          <div class="col-4 col-md-4">
+             <select class="form-control form-bor" id="city">
+            <option>高雄市</option>
+            </select>
+       
+          </div>
+           <div class="col-4 col-md-4">
+             <select class="form-control form-bor" id="area">
+            <option>鹽埕區</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="form-group row ">
+          <label for="address1" class="col-4 col-md-2 col-form-label"></label>
+          <div class="col-8 col-sm-8">
+            <input type="text" class="form-control form-bor mb-3" id="address1" placeholder="請輸入地址">
+           <a href="#" class="btn btn-primary col-8 mb-4">確認修改</a>
+          </div>
+
+          
+        </div>
+        <p class="font-weight-bold infor pb-2 text-dark">修改密碼</p>
+        <div class="form-group row ">
+          <label for="name" class="col-4 col-md-2 col-form-label">舊密碼</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control  form-bor" id="name" placeholder="">
+          </div>
+          
+        </div>
+        <div class="form-group row ">
+          <label for="name" class="col-4 col-md-2 col-form-label">新密碼</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control  form-bor" id="name" placeholder="">
+          </div>
+          
+        </div>
+        <div class="form-group row mb-0 ">
+          <label for="name" class="col-4 col-md-2 col-form-label ">確認新密碼</label>
+          <div class="col-8 col-md-8">
+            <input type="text" class="form-control  form-bor mb-3 " id="name" placeholder="">
+            <a href="#" class="btn btn-primary col-8 col-md-4 ">變更密碼</a>
+          </div>
+          
+        </div>
+      </form>
+      
+      
+    </div>
+
+    <div class="col-12 col-md-12 col-lg-3 order-lg-last order-md-first mb-md-3" >
+      <div class="row">
+
+        <div class="col-12 d-flex align-items-center text-success">
+          <img src="img/user-alt (1).svg" alt="" class="pr-2">
+          <h6 class="pt-2 pr-2 ">會員編碼</h6>
+          <span>T00020080615</span>
+        </div>
+        
+        <div class="col-5  text-success"> <p>購物車</p></div>
+       
+        <div class="col-5 text-success"> <p>56</p></div>
+        
+        <div class="col-5  text-success"> <p>我的收藏</p></div>
+       
+        <div class="col-5  text-success"> <p>23</p></div>
+        
+        <div class="col-5  text-success"> <p>已完成訂單</p></div>
+       
+        <div class="col-5  text-success"> <p>8</p></div>
+        
+        <div class="col-5  text-success"> <p>會員紅利</p></div>
+       
+        <div class="col-5  text-success"> <p>2680</p></div>
+        
+        <div class="col-5  text-success"> <p>專屬邀請碼</p></div>
+       
+        <div class="col-5  text-success"> <p>TK2075</p></div>
+        
+        <div class="col-12  text-success font-small"> <p>新戶輸入邀請碼即可獲贈紅利點數1000點</p></div>
+      </div>
+    
+    </div>
+    </div>
+
+
+  </div>
+  
+  
+</div>
+
+
+<!---------------------------------------會變動的內容end-------------------------------------->
+
+
+<!---------------------------------------表尾start------------------------------------------->   
+
+
+  <div class="container-fluid bg-primary">
+    <div class="container">
+
+      <div class="row justify-content-between ">
+      
+      <div class="col-12 col-md-6 p-2 text-light">
+       <a href="index.html"> <img src="img/logo-white.png" alt="" class="pr-2"></a>
+        <span>© 2020. All Rights Reserved.</span>
+      </div>
+
+      <nav class="nav  col-md-6 d-none d-md-flex justify-content-end align-items-center">
+
+       
+        <a class="nav-link active  text-light " href="product.html">Product</a>
+  
+        
+        <a class="nav-link  text-light" href="#">Blog</a>
+                           
+        <a class="nav-link  text-light" href="#" >Contact</a>
+  
+      </nav>
+
+      </div>
+
+    </div>
+
+  </div>
+<!---------------------------------------表尾end-------------------------------------------->
+<!-- Modal 加入最愛-->
+<div class="modal fade" id="openMe" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+   
+      <div class="modal-body text-center text-primary">
+        <h4 >已加入我的收藏</h4>
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+<!-- Modal 加入購物車-->
+<div class="modal fade" id="openMe1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body text-center text-primary">
+        <h4 >已加入購物車</h4>
+      </div>
+  </div>
+</div>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/all.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+.page{
+    &-link{
+        border:0;
+    }
+    &-link:hover {
+        z-index: 2; 
+        color:$primary;
+        text-decoration:underline;
+        background-color: 0; 
+         border-color:0; 
+    }
+}

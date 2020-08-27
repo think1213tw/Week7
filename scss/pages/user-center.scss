@@ -1,0 +1,26 @@
+.infor{
+    border-bottom:1px solid #818A91;
+}
+.user-item:hover{
+    color: #707070;
+    border-bottom: 2px solid #AC8A46;
+    text-decoration: none;
+}
+.font-small{
+    font-size:13px;
+}
+.custom-control-label:before{
+    background-color:white;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#916000;
+}
+
+.custom-control-input:active~.custom-control-label::before{
+    background-color:green;
+}
+
+/** focus shadow pinkish **/
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before{
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 0, 247, 0.25); 
+}

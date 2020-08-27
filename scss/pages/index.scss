@@ -1,0 +1,119 @@
+img{
+
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: no;
+}
+
+.container-fluid{
+    padding-right:0px;
+    padding-left: 0px;
+}
+.nav{
+    &-favorite{
+       
+        padding-top: 8px;
+        width: 14px;
+    }
+}
+.logo{
+  background-image: url(../img/d’Perfume.png); 
+  width: 128px;
+  height: 38px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+
+.chanel{
+    background:url(../img/photo-1588159343745-445ae0b16383.png);
+    height: 870px;
+    background-size: cover;
+    &-btn{
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 100px;
+    }
+    &-contact{
+    padding-top: 295px;
+    }
+  
+}
+@media(max-width:375px){
+    .chanel{
+        height: 480px;
+        &-contact{
+            padding-top: 101px;
+            }
+    }
+  
+}
+
+.product{
+  
+    button{
+        border: 2px solid black;
+    border-radius: 30px;
+   
+    font-size: 20px;
+    }
+
+
+    &-width{
+        max-width: 375px;
+    }
+}
+
+.card{
+    border:0px;
+ 
+    &-z{
+        position: absolute;
+        z-index:1;
+    }
+    &-dex{
+        position: relative;
+    }
+   
+}
+
+
+.sold{
+    position: relative;
+    &-out{
+        position: absolute;
+        top: 50%;
+        left: 38%;
+        z-index:2;
+    }
+}
+
+.footer{
+    &-img{
+     background:no-repeat center url(../img/footer.png);
+     background-size: cover;
+    height: 600px;
+   
+    }
+    &-sub{
+        padding-top: 312px;
+    }
+}
+
+.form-control{
+    border:2px solid #916000;
+}
+.collapse{
+    p{
+        border-radius: 7px;
+        font-size: 12px;
+        width: 16px;
+       
+    }
+}
