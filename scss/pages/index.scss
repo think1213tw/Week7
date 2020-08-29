@@ -1,5 +1,4 @@
 img{
-
     max-width: 100%;
     height: auto;
 }
@@ -40,9 +39,7 @@ a{
     font-size: 20px;
     padding: 10px 100px;
     }
-    &-contact{
-    padding-top: 295px;
-    }
+  
   
 }
 @media(max-width:375px){
@@ -62,11 +59,6 @@ a{
     border-radius: 30px;
    
     font-size: 20px;
-    }
-
-
-    &-width{
-        max-width: 375px;
     }
 }
 
@@ -101,9 +93,7 @@ a{
     height: 600px;
    
     }
-    &-sub{
-        padding-top: 312px;
-    }
+  
 }
 
 .form-control{
